@@ -17,7 +17,6 @@ function removeNamePrompt() {
     } else {
         promptNameInput.style.transition = "all .5s ease-in-out";
         promptNameInput.classList.remove("hide");
-        return false;
     }
 }
 
