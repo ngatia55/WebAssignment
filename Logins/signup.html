@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdsChain | SignUp page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="login_content">
+        <div class="login_container">
+            <div class="content">
+                <form id="form" action="../Dashboard/index.html" method="GET">
+                    <div class="head">
+                        <h1>SIGNUP</h1>
+                    </div>
+                    <div class="content_body">
+                        <div class="name_alert alert">
+                            <div class="fill_alert">
+                                <img src="/Assets/images/alert.png" alt="alert image">
+                                <p>Ay mahn! Fill in this field!</p>
+                            </div>
+                        </div>
+                        <input type="text" name="email" id="usernameinput" placeholder="*email" autocomplete="email" />
+                        <input type="text" name="username" id="username" placeholder="username" autocomplete="username" />
+                        <div class="pass_alert alert hide">
+                            <div class="fill_alert one">
+                                <img src="/Assets/images/alert.png" alt="alert image">
+                                <p>Mk chnjo chnjo! Wazi Jo!</p>
+                            </div>
+                        </div>
+                        <input type="password" name="password" id="passcode" placeholder="*password" autocomplete="current-password" />
+                        <input type="password" name="password" id="passcode" placeholder="*Re-enter password" autocomplete="current-password" />
+                        <input type="tel" name="tel" id="tel" placeholder="*phone" autocomplete="tel-country-code" />
+                    </div>
+                    <div class="call_actn">
+                        <a><button type="submit">Continue</button></a>
+                    </div>
+                    <div class="altlinks">
+                        <a href="./login.html">Already a Member!</a>
+                        <div class="copyrights">
+                            <img src="/Assets/images/trademark.png" alt="copyrights image">
+                            <p>AdsChain All rights reserved</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/config.js"></script>
+</body>
+</html>

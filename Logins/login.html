@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdsChain | Login page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login_content">
+        <div class="login_container">
+            <div class="content">
+                <form id="form" action="../Dashboard/index.html" method="GET">
+                    <div class="head">
+                        <h1>Member Login</h1>
+                    </div>
+                    <div class="content_body">
+                        <div class="name_alert alert">
+                            <div class="fill_alert">
+                                <img src="/Assets/images/alert.png" alt="alert image">
+                                <p>Ay mahn! Fill in this field!</p>
+                            </div>
+                        </div>
+                        <input type="text" name="username" id="usernameinput" placeholder="*username | email" autocomplete="email" />
+                        <div class="pass_alert alert hide">
+                            <div class="fill_alert one">
+                                <img src="/Assets/images/alert.png" alt="alert image">
+                                <p>Mk chnjo chnjo! Wazi Jo!</p>
+                            </div>
+                        </div>
+                        <input type="password" name="password" id="passcode" placeholder="*password" autocomplete="current-password" />
+                    </div>
+                    <div class="call_actn">
+                        <a><button type="submit">Login</button></a>
+                    </div>
+                    <div class="altlinks">
+                        <a href="./signup.html">Register today</a>
+                        <div class="copyrights">
+                            <img src="/Assets/images/trademark.png" alt="copyrights image">
+                            <p>AdsChain.com All rights reserved</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Scripts/config.js"></script>
+</body>
+</html>
